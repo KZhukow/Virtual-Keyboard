@@ -254,7 +254,6 @@ document.addEventListener('keydown', (e) => {
     document.querySelector(`#Key${KEY_CODES.indexOf(e.code)}`).classList.toggle('key-down');
   }
   if (e.code !== 'CapsLock') pressKey.push(KEY_CODES.indexOf(e.code));
-  // console.log(pressKey);
 });
 
 document.addEventListener('keyup', (e) => {
